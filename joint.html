@@ -1,0 +1,23 @@
+// 1. self-join
+//use alias for the table name because self join use the same table name
+<!-- select <column_list>
+    from <table_name1> t1
+    join <table_name1> t2
+    on t1.column = t2.column_name;
+-->
+
+//contoh select employee and manager
+<!-- select t2.first_name as Employee,
+    t1.first_name as manager
+    from
+    employee t1 join employee t2
+    on t1.emp_id = t2.mgr_id -->
+
+
+// 2. inner join
+<!-- select <column_list>
+    from <table_name1> as t1
+    inner join <table_name2> as t2
+    on t1.column_name = t2.column_name -->
+
+    <!--  -->
