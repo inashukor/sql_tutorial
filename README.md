@@ -43,3 +43,10 @@ syntax:
 - commit
 - rollback
 - savepoint
+
+        
+CONSTRAINT => NOT NULL / UNIQUE / PRIMARY KEY / FOREIGN KEY / CHECK
+        -we can add constraint after create table
+                        
+                   alter table emp
+                    add constraint emp_pk PRIMARY KEY (emp_id)
